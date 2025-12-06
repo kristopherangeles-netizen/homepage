@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Kris</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; }
+        h1 { color: #3498db; text-align: center; }
+        .project-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-top: 30px; }
+        .project-card { border: 1px solid #ccc; padding: 15px; border-radius: 8px; box-shadow: 2px 2px 5px rgba(0,0,0,0.1); }
+        .project-card img { width: 100%; height: auto; border-radius: 4px; margin-bottom: 10px; }
+        .project-links a { color: #2c3e50; margin-right: 15px; text-decoration: none; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <nav style="background-color: #2c3e50; padding: 15px;">
+        <a href="index.html" style="color: white; margin: 0 15px; text-decoration: none;">Home</a>
+        <a href="about.html" style="color: white; margin: 0 15px; text-decoration: none;">About Me</a>
+        </nav>
+
+    <h1>My Portfolio Projects</h1>
+
+    <div class="project-grid">
+
+        <div class="project-card">
+            <img src="path/to/project1-thumb.jpg" alt="Thumbnail for Project 2">
+            <h3>Weather Forecasting API</h3>
+            <p>A backend service built with Node.js and Express, which fetches and processes real-time weather data from multiple external APIs for reliable forecasting.</p>
+            <div class="project-links">
+                <a href="#" target="_blank">(Optional) GitHub Link</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="path/to/project2-thumb.jpg" alt="Thumbnail for Project 3">
+            <h3>Personal Blog Platform</h3>
+            <p>A simple blogging platform with CRUD functionality, built using Python (Flask) and SQLite. Focused on clean database design and secure user authentication.</p>
+            <div class="project-links">
+                <a href="#" target="_blank">(Optional) Demo Link</a>
+            </div>
+        </div>
+
+        </div>
+
+</body>
+</html>
